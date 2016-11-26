@@ -4,7 +4,7 @@
 		<link rel="stylesheet" type="text/css" href="stylesheet.css">
 		<link href="https://fonts.googleapis.com/css?family=Ravi+Prakash" rel="stylesheet">   
 			
-		<title>Survive It Yourself</title>
+		<title>SurviveItYourself - Homepage</title>
 			
 		<style>
 			/* Reset the marging/padding so as to not use the user agent stylesheet. Then set the box model to use border-box */
@@ -19,24 +19,30 @@
 				}
 
 				p {
-						font-size: 16pt;
-						font-family: Helvetica, Arial, serif;
+						font-size: 20pt;
+						font-family: 'Ravi Prakash', cursive, Helvetica, Arial, serif;
+						letter-spacing: 0.0025em;
+						color: #301d04;
 				}
 				
-				#ready-text {
+/*				#ready-text {
 						font-family: 'Ravi Prakash', cursive;
 						margin: 1.5em auto;
 						text-align: center;
 						font-size: 4em;
 						color: red;
 						line-height: 1em;
-				}
+				}*/
 				
 				#homepage-zombie {
 						float: left;
 						margin-right: 2em;
 						width: 9em;
 						height: auto;
+				}
+				
+				#home-content {
+						margin-top: 3.5em;
 				}
 
 				.header {
@@ -73,14 +79,15 @@
 				.content-container {
 						background: url("http://i.imgur.com/NTHReWH.jpg") repeat-y;
 						border-radius: 4%;
-						padding: 2em;
+						padding: 1.5em;
 						margin: auto 3em;
 						min-width: 13em;
 				}
-								
+				
 				.recent-projects {
 						margin-top: 5em;
 						text-align: center;
+						border: .2em dashed black;
 				}
 				
 				.recently-added-img {
@@ -114,16 +121,22 @@
 			
 			
 			<div class="content-container">
+
 					<iframe width="100%" height="315" src="https://www.youtube.com/embed/UsyOTQhvyag" frameborder="0" allowfullscreen></iframe>
-					<h1 id="ready-text">Are you ready?</h1>
-					<img id="homepage-zombie" src="http://i.imgur.com/7tgoYxK.png"/>
-					<p>Uh-oh, it looks like the zombies are here! Are you ready to defend yourself and survive the apocalypse? If not, you've come to the right place. Here at <i>Survive It Yourself</i>, you'll learn all the DIY projects and skills necessary to keep on keeping on. Click on the "Browse Projects" tab to start preparing!</p>
-					
+
+					<!--<h1 id="ready-text">Are you ready?</h1>-->
+
+					<div id="home-content">
+							<img id="homepage-zombie" src="http://i.imgur.com/7tgoYxK.png"/>
+
+								<p align="justify">Uh-oh, it looks like the zombies are here!  Are you ready to defend yourself and survive the apocalypse?  If not, you've come to the right place.  Here at SurviveItYourself, you'll learn all the DIY projects and skills necessary to keep on keeping on.  Click on the "Browse Projects" tab to start preparing!</p>
+					</div>
+
 					<div class="recent-projects">
 							<h2>Recently Added Projects</h2>
 							<a href="http://lmgtfy.com/?q=how+to+build+a+foxhole+radio"><img class="recently-added-img" src="https://upload.wikimedia.org/wikipedia/commons/9/93/3D_Foxhole_radio.jpg" alt="The Foxhole Radio" title="The Foxhole Radio"/></a>
 							<a href="lmgtfy.com/?q=how+to+make+a+water+filter"><img class="recently-added-img" src="https://gmplka-dm2306.files.1drv.com/y3ml5iyfDmO_FwWeOCqK9U5j97tcmAPnOV-hlddNqr6Mcv_nuxzAu8GTkGJlciYG7RQ4lw37DdloJbHZYiSkVA_keO8DaxLwyGf0md96kC0IWYu8SiY35j2OgMT_kRNI94MPv1P-UqFCDb4RZ5_om3O-kHQdCqbryz7EmcCGaXuVCS45WurJNMDhA-jZI5vNECO/home made water filter 1.jpg" alt="DIY Water Filter" title="DIY Water Filter"/></a>
 					</div>
 			</div>
-	</body>
+		</body>
 </html>
