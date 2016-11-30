@@ -176,7 +176,7 @@ input:focus, textarea:focus {
 		display: inline-block;
 		border-radius: 2.5%;
 		padding: 1.5em;
-		margin: 3em auto;
+		margin: 3em 3em;
 		min-width: 13em;
 		min-height: 32em;
 		overflow-x: auto;
