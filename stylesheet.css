@@ -173,6 +173,7 @@ input:focus, textarea:focus {
 @media screen and (max-width: 768px) {
 	.content-container {
 		background: url("http://i.imgur.com/Fk1MjQS.jpg") repeat;
+		display: inline-block;
 		border-radius: 2.5%;
 		padding: 1.5em;
 		margin: 3em auto;
