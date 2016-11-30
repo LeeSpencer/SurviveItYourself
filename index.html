@@ -5,108 +5,6 @@
 		<link href="https://fonts.googleapis.com/css?family=Ravi+Prakash" rel="stylesheet">   
 			
 		<title>SurviveItYourself - Homepage</title>
-			
-		<style>
-			/* Reset the marging/padding so as to not use the user agent stylesheet. Then set the box model to use border-box */
-				* {
-						margin: 0;
-  					padding: 0;
-						box-sizing: border-box;
-				}
-				
-				body {
-						background-image: url("http://i.imgur.com/3xK5pNg.jpg");
-				}
-
-				p {
-						
-						font-family: 'Ravi Prakash', cursive, Helvetica, Arial, serif;
-						letter-spacing: 0.0025em;
-						color: #301d04;
-				}
-				
-				iframe {
-						border-radius: 2.5%;
-				}
-				
-/*				#ready-text {
-						font-family: 'Ravi Prakash', cursive;
-						margin: 1.5em auto;
-						text-align: center;
-						font-size: 4em;
-						color: red;
-						line-height: 1em;
-				}*/
-				
-				#homepage-zombie {
-						float: left;
-						margin-right: 2em;
-						height: 15em;
-						width: auto;
-				}
-				
-				#home-content {
-						margin-top: 3.5em;
-				}
-
-				.header {
-						background-image: url("http://i.imgur.com/5kjsFFR.png");
-						background-position: center center;
-						background-size: 100% 100%;
-						margin-bottom: 1em;
-				}
-				
-				.navigation-menu {
-						display: inline-block;
-						z-index: 1000;
-						clear: both;
-						padding-top: 6em;
-				}
-				
-				
-				.navigation-menu li {
-						background-color: white;
-						border: 0.125em outset black;
-						/*border-top: 0;*/
-						text-transform: uppercase;
-						text-align: center;
-						float: left;
-						list-style: none;
-						padding: 0.125em;
-				}
-				
-				.navigation-menu li:hover {
-						background-color: navy;
-						color: white;
-				}
-				
-				.content-container {
-						background: url("http://i.imgur.com/Fk1MjQS.jpg") repeat;
-						border-radius: 2.5%;
-						padding: 1.5em;
-						margin: auto 3em;
-						min-width: 13em;
-				}
-				
-				.recent-projects {
-						margin-top: 5em;
-						text-align: center;
-						border: .2em dashed black;
-				}
-				
-				.recently-added-img {
-						display: inline-block;
-						border-radius: 100%;
-						height: 7.5em;
-						width: 8em;
-						margin: 2em auto 0 auto;
-				}
-				
-				.recently-added-img:hover {
-						border: 0.12em inset blue;
-						opacity: 0.9;
-				}
-		</style>
 	</head>
 
 
@@ -114,10 +12,11 @@
 			<div class="header">
 					<div class="navigation-menu">
 							<ul>
-									<li>Browse Projects</li>
-									<li>Suggest a Project</li>
-									<li>About Us</li>
-									<li>Contact</li>
+									<a href="index.html"><li>Home</li></a>
+									<a href="BrowseProjects.html"><li>Browse Projects</li></a>
+									<a href="SuggestProject.html"><li>Suggest a Project</li></a>
+									<a href="AboutUs.html"><li>About Us</li></a>
+									<a href="ContactUs.html"><li>Contact</li></a>
 							</ul>
 					</div>
 			</div>
@@ -131,15 +30,15 @@
 					<!--<h1 id="ready-text">Are you ready?</h1>-->
 
 					<div id="home-content">
-							<img id="homepage-zombie" src="http://i.imgur.com/EJfjjag.png"/>
+							<img id="homepage-zombie" src="http://i.imgur.com/rqtpaAH.png"/>
 
 								<p>Uh-oh, it looks like the zombies are here!  Are you ready to defend yourself and survive the apocalypse?  If not, you've come to the right place.  Here at SurviveItYourself, you'll learn all the DIY projects and skills necessary to keep on keeping on.  Click on the "Browse Projects" tab to start preparing!</p>
 					</div>
 
-					<div class="recent-projects">
+					<div id="recent-projects">
 							<h2>Recently Added Projects</h2>
-							<a href="http://lmgtfy.com/?q=how+to+build+a+foxhole+radio"><img class="recently-added-img" src="https://upload.wikimedia.org/wikipedia/commons/9/93/3D_Foxhole_radio.jpg" alt="The Foxhole Radio" title="The Foxhole Radio"/></a>
-							<a href="lmgtfy.com/?q=how+to+make+a+water+filter"><img class="recently-added-img" src="https://gmplka-dm2306.files.1drv.com/y3ml5iyfDmO_FwWeOCqK9U5j97tcmAPnOV-hlddNqr6Mcv_nuxzAu8GTkGJlciYG7RQ4lw37DdloJbHZYiSkVA_keO8DaxLwyGf0md96kC0IWYu8SiY35j2OgMT_kRNI94MPv1P-UqFCDb4RZ5_om3O-kHQdCqbryz7EmcCGaXuVCS45WurJNMDhA-jZI5vNECO/home made water filter 1.jpg" alt="DIY Water Filter" title="DIY Water Filter"/></a>
+							<a href="http://lmgtfy.com/?q=how+to+build+a+foxhole+radio"><img class="recently-added-img" src="http://i.imgur.com/jR2lz6P.jpg" alt="The Foxhole Radio" title="The Foxhole Radio"/></a>
+							<a href="lmgtfy.com/?q=how+to+make+a+water+filter"><img class="recently-added-img" src="http://i.imgur.com/xPBIoc4.png" alt="DIY Water Filter" title="DIY Water Filter"/></a>
 					</div>
 			</div>
 		</body>
