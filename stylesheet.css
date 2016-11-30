@@ -88,6 +88,8 @@ input:focus, textarea:focus {
 	background-size: 100% 100%;
 	margin-bottom: 1em;
 	height: 19.25em;
+	max-height: 19.25em;
+	min-height: 19.25em;
 }
 
 .navigation-menu {
@@ -110,8 +112,8 @@ input:focus, textarea:focus {
 	list-style: none;
 	padding: 0.125em;
 	float: left;
-    position: relative;
-    left: -50%;
+    	position: relative;
+    	left: -50%;
 	}
 
 .navigation-menu li:hover {
@@ -166,4 +168,16 @@ input:focus, textarea:focus {
 	width: 54%;
 	padding: 1em;
 	border-radius: 5%;
+}
+
+@media screen and (max-width: 768px) {
+	.content-container {
+		background: url("http://i.imgur.com/Fk1MjQS.jpg") repeat;
+		border-radius: 2.5%;
+		padding: 1.5em;
+		margin: 3em auto;
+		min-width: 13em;
+		min-height: 32em;
+		overflow-x: auto;
+	}
 }
