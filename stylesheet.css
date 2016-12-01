@@ -22,8 +22,9 @@ h1 {
 }
 
 h3 {
-	text-align: center;
+	text-align: left;
 	font-family: 'Ravi Prakash', cursive, Helvetica, Arial, serif;
+	position: absolute;
 	position: bottom;
 	font-size: 2em;
 }
