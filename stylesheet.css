@@ -21,6 +21,10 @@ h1 {
 	font-size: 3.2em;
 }
 
+h2 {
+	font-family: 'Ravi Prakash', cursive, Helvetica, Arial, serif;
+}
+
 h3 {
 	text-align: left;
 	font-family: 'Ravi Prakash', cursive, Helvetica, Arial, serif;
@@ -134,6 +138,7 @@ input:focus, textarea:focus {
 	text-align: left;
 	margin: 0 auto;
 	margin-top: 1em;
+	font-family: 'Ravi Prakash', cursive, Helvetica, Arial, serif;
 }
 
 .header {
