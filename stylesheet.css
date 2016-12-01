@@ -45,12 +45,13 @@ p {
 }
 
 ol {
-	font-size: 2em;
+	font-size: 3em;
 	font-family: 'Ravi Prakash', cursive, Helvetica, Arial, serif;
 }
 
 ol li {
 	color: initial;
+	font-size: 1.5em;
 }
 
 iframe {
