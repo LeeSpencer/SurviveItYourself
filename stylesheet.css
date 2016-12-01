@@ -49,7 +49,6 @@ form {
 	padding: 1em;
 	border: .1em dashed black;
 	border-radius: 1em;
-	clear: right;
 }
 
 form div + div {
