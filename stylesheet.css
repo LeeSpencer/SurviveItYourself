@@ -129,6 +129,10 @@ input:focus, textarea:focus {
 	margin: 1em 3em 3em 3em;
 }
 
+#supplies {
+	text-align: center;
+}
+
 .header {
 	background-image: url("http://i.imgur.com/gPTJJoU.jpg");
 	background-position: center center;
