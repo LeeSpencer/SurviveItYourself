@@ -204,7 +204,8 @@ input:focus, textarea:focus {
 .project-button {
 	border-radius: 100%;
 	display: inline-block;
-	margin: 5em auto;
+	text-align: center;
+	margin: 5em 5em;
 	height: 15em;
 	width: 21.8125em;
 }
