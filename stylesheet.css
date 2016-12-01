@@ -49,6 +49,10 @@ ol {
 	font-family: 'Ravi Prakash', cursive, Helvetica, Arial, serif;
 }
 
+ol li {
+	color: initial;
+}
+
 iframe {
 	border-radius: 2.5%;
 }
