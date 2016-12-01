@@ -44,11 +44,6 @@ p {
 	color: #301d04;
 }
 
-ol {
-	display: inline-block;
-	text-align: center;
-}
-
 ol li {
 	font-size: 2em;
 	font-family: 'Ravi Prakash', cursive, Helvetica, Arial, serif;
@@ -151,6 +146,11 @@ input:focus, textarea:focus {
 	margin-top: .5em;
 	font-family: 'Ravi Prakash', cursive, Helvetica, Arial, serif;
 	font-size: 1.5em;
+}
+
+#instructions {
+	text-align: center;
+	margin: 0 auto;
 }
 
 .header {
