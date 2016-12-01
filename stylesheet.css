@@ -56,7 +56,6 @@ form div + div {
 }
 
 label {
-	display: block;
 	width: 5.625em;
 	text-align: left;
 }
@@ -104,8 +103,8 @@ input:focus, textarea:focus {
 
 #zombie-hand {
 	float: right;
-	height: 24em;
-	width: auto;
+	height: 71%;
+	width: 10%;
 }
 
 #nav-right-end {
