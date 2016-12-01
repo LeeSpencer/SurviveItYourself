@@ -85,8 +85,24 @@ input:focus, textarea:focus {
 	margin-top: 3.5em;
 }
 
+#recent-projects {
+	margin: 5em auto;
+	text-align: center;
+	border: .2em dashed black;
+	width: 70%
+}
+
 #zombie-hand {
 	float: right;
+	width: auto;
+}
+
+#nav-right-end {
+	border-right: none;
+}
+
+#nav-left-end {
+	border-left: none;
 }
 
 .header {
@@ -134,17 +150,10 @@ input:focus, textarea:focus {
 	background: url("http://i.imgur.com/Fk1MjQS.jpg") repeat;
 	border-radius: 2.5%;
 	padding: 1.5em;
-	margin: 0 3em;
+	margin: 4em 3em;
 	min-width: 13em;
 	min-height: 32em;
 	overflow-x: auto;
-}
-
-#recent-projects {
-	margin: 5em auto;
-	text-align: center;
-	border: .2em dashed black;
-	width: 70%
 }
 
 .recently-added-img {
