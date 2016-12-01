@@ -117,6 +117,10 @@ input:focus, textarea:focus {
 	border-left: none;
 }
 
+#project-container {
+	text-align: center;
+}
+
 .header {
 	background-image: url("http://i.imgur.com/gPTJJoU.jpg");
 	background-position: center center;
