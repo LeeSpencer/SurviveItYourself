@@ -175,6 +175,7 @@ input:focus, textarea:focus {
 	height: 10em;
 	width: 10em;
 	margin: 0 5em;
+	position: relative;
 }
 
 .about-us-text {
