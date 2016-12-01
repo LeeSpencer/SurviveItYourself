@@ -27,8 +27,8 @@ h3 {
 	position: relative;
 	bottom: 0;
 	font-size: 2em;
-	height: 6em;
-	width: 18.5em;
+	height: auto;
+	width: 25em;
 }
 
 p {
