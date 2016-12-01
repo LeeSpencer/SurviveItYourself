@@ -193,7 +193,7 @@ input:focus, textarea:focus {
 	display: inline-block;
 	margin: 5em 5em;
 	height: 15em;
-	width: auto;
+	width: 21.8125em;
 }
 
 .project-button:hover {
