@@ -44,9 +44,10 @@ p {
 	color: #301d04;
 }
 
-ol li {
+ol {
 	font-size: 2em;
 	font-family: 'Ravi Prakash', cursive, Helvetica, Arial, serif;
+	color: #301d04;
 }
 
 iframe {
@@ -150,7 +151,7 @@ input:focus, textarea:focus {
 
 .instructions {
 	text-align: center;
-	margin: 0 auto;
+	margin-top: 3.5em;
 }
 
 .header {
