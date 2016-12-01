@@ -46,7 +46,8 @@ p {
 
 ol {
 	display: inline-block;
-	margin: 0 auto;
+	text-align: center;
+	margin-left: 5em;
 }
 
 ol li {
