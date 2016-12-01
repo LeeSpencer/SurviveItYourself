@@ -103,7 +103,7 @@ input:focus, textarea:focus {
 	display: inline-block;
 	z-index: 1000;
 	clear: both;
-	margin: 19em auto 0 auto;
+	margin: 19.5em auto 0 auto;
 	float: left;
     	position: relative;
     	left: 50%;
@@ -117,6 +117,7 @@ input:focus, textarea:focus {
 	text-transform: uppercase;
 	text-align: center;
 	list-style: none;
+	font-size: 1.4em;
 	padding: 0.125em;
 	float: left;
     	position: relative;
@@ -126,7 +127,7 @@ input:focus, textarea:focus {
 .navigation-menu li:hover {
 	background-color: maroon;
 	color: aliceblue;
-	margin: .24em 0 0 0;
+	margin: .2em 0 0 0;
 }
 
 .content-container {
