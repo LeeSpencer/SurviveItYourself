@@ -125,6 +125,7 @@ input:focus, textarea:focus {
 	float: left;
 	clear: both;
 	text-align: left;
+	width: 90%;
 }
 
 .header {
