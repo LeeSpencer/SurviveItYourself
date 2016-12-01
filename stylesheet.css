@@ -209,9 +209,9 @@ input:focus, textarea:focus {
 .project-button {
 	border-radius: 100%;
 	display: inline-block;
-	margin: 5em 5em;
-	height: 15em;
-	width: 21.8125em;
+	margin: 5em 3em;
+	height: 1em;
+	width: 19em;
 }
 
 .project-button:hover {
