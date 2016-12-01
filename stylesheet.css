@@ -119,7 +119,7 @@ input:focus, textarea:focus {
 
 #project-container {
 	text-align: center;
-	width: 60%;
+	width: 100%;
 	margin: 0 auto;
 }
 
@@ -211,8 +211,8 @@ input:focus, textarea:focus {
 	border-radius: 100%;
 	display: inline-block;
 	margin: 5em 3em;
-	height: 17em;
-	width: 17em;
+	height: 6em;
+	width: 6em;
 }
 
 .project-button:hover {
