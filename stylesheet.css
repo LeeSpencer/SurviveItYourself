@@ -141,8 +141,7 @@ input:focus, textarea:focus {
 	}
 
 .navigation-menu li:hover {
-	background-color: maroon;
-	color: aliceblue;
+	color: maroon;
 	margin: .2em 0 0 0;
 }
 
