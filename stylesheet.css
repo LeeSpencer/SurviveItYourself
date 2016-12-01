@@ -172,6 +172,7 @@ input:focus, textarea:focus {
 	min-width: 13em;
 	min-height: 32em;
 	overflow-x: auto;
+	background-attachment: local;
 }
 
 .recently-added-img {
