@@ -121,6 +121,12 @@ input:focus, textarea:focus {
 	margin: 0 auto;
 }
 
+#intro {
+	float: left;
+	clear: both;
+	text-align: left;
+}
+
 .header {
 	background-image: url("http://i.imgur.com/gPTJJoU.jpg");
 	background-position: center center;
