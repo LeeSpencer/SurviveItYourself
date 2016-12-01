@@ -44,6 +44,10 @@ p {
 	color: #301d04;
 }
 
+ol {
+	margin: 0 auto;
+}
+
 ol li {
 	font-size: 2em;
 	font-family: 'Ravi Prakash', cursive, Helvetica, Arial, serif;
