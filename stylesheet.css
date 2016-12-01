@@ -128,7 +128,7 @@ input:focus, textarea:focus {
 
 .navigation-menu li {
 	background-color: black;
-	border: 0.125em outset white;
+	border-right: 0.125em outset white;
 	color: white;
 	text-transform: uppercase;
 	text-align: center;
