@@ -185,4 +185,5 @@ input:focus, textarea:focus {
 	width: 54%;
 	padding: 1em;
 	border-radius: 5%;
+	text-align: left;
 }
