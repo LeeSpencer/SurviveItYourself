@@ -11,7 +11,7 @@ body {
 	background-position: 0 19.9em;
 }
 
-a {
+a > li {
 	color: inherit;
 	text-decoration: none;
 }
