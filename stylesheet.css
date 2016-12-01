@@ -187,3 +187,14 @@ input:focus, textarea:focus {
 	border-radius: 5%;
 	text-align: left;
 }
+
+.project-button {
+	border-radius: 20%;
+	display: inline-block;
+	margin: 5em 5em;
+}
+
+.project-button:hover {
+	opacity: 0.9;
+	border: .1em solid darkturquoise;
+}
