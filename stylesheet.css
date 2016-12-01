@@ -120,6 +120,7 @@ input:focus, textarea:focus {
 #project-container {
 	text-align: center;
 	width: 60%;
+	margin: 0 auto;
 }
 
 .header {
