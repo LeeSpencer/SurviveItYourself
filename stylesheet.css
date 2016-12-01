@@ -110,7 +110,7 @@ input:focus, textarea:focus {
 	background-image: url("http://i.imgur.com/gPTJJoU.jpg");
 	background-position: center center;
 	background-size: 100% 100%;
-	margin-bottom: 5em;
+	margin-bottom: 4.5em;
 	height: 19.25em;
 	max-height: 19.25em;
 }
@@ -129,8 +129,6 @@ input:focus, textarea:focus {
 .navigation-menu li {
 	background-color: black;
 	border: 0.125em outset white;
-	border-bottom: none;
-	border-top: none;
 	color: white;
 	text-transform: uppercase;
 	text-align: center;
