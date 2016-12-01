@@ -179,8 +179,8 @@ input:focus, textarea:focus {
 
 .about-us-text {
 	margin: 3em auto 4.6em 11em;
-	background-color: aquamarine;
-	border: .0625em solid darkcyan;
+	/*background-color: aquamarine;
+	border: .0625em solid darkcyan;*/
 	width: 54%;
 	padding: 1em;
 	border-radius: 5%;
