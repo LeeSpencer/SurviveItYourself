@@ -7,8 +7,9 @@
 
 body {
 	background-image: url("http://i.imgur.com/4J0kAoz.jpg");
-	background-size: 50% 100%;
+	background-size: 120em 156.25em;
 	background-position: 0 19.9em;
+	background-repeat: repeat-y;
 }
 
 a > li {
