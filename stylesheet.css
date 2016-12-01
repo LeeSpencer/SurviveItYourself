@@ -93,7 +93,7 @@ input:focus, textarea:focus {
 	background-image: url("http://i.imgur.com/gPTJJoU.jpg");
 	background-position: center center;
 	background-size: 100% 100%;
-	margin-bottom: 1em;
+	margin-bottom: 1.5em;
 	height: 19.25em;
 	max-height: 19.25em;
 	max-width: 100%;
@@ -103,7 +103,7 @@ input:focus, textarea:focus {
 	display: inline-block;
 	z-index: 1000;
 	clear: both;
-	margin: 19.5em auto 0 auto;
+	margin: 19.5em auto 2em auto;
 	float: left;
     	position: relative;
     	left: 50%;
