@@ -86,7 +86,7 @@ input:focus, textarea:focus {
 }
 
 #zombie-hand {
-	float: left;
+	float: right;
 }
 
 .header {
@@ -96,7 +96,7 @@ input:focus, textarea:focus {
 	margin-bottom: 1em;
 	height: 19.25em;
 	max-height: 19.25em;
-	min-height: 19.25em;
+	max-width: 100%;
 }
 
 .navigation-menu {
@@ -105,8 +105,8 @@ input:focus, textarea:focus {
 	clear: both;
 	margin: 19em auto 0 auto;
 	float: left;
-    position: relative;
-    left: 50%;
+    	position: relative;
+    	left: 50%;
 }
 
 
@@ -124,8 +124,8 @@ input:focus, textarea:focus {
 	}
 
 .navigation-menu li:hover {
-	background-color: white;
-	color: navy;
+	background-color: maroon;
+	color: aliceblue;
 	margin: .24em 0 0 0;
 }
 
