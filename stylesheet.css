@@ -103,9 +103,8 @@ input:focus, textarea:focus {
 
 #zombie-hand {
 	float: right;
-	height: 24em;
+	height: 90%;
 	width: auto;
-	clear: both;
 }
 
 #nav-right-end {
