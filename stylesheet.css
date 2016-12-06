@@ -159,6 +159,7 @@ input:focus, textarea:focus {
 }
 
 .project-heading-image {
+	display: inline-block;
 	height: 15em;
 	width: auto;
 	margin: 0 auto;
