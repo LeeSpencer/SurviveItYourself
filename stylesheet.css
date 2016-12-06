@@ -160,9 +160,8 @@ input:focus, textarea:focus {
 
 .project-heading-image {
 	display: inline-block;
-	height: 20em;
-	width: auto;
-	text-align: center;
+	height: auto;
+	width: 100%;
 }
 
 .instructions {
