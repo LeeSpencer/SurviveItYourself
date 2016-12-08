@@ -162,12 +162,13 @@ input:focus, textarea:focus {
 	text-align: center;
 	width: 100%;
 	height: 15em;
+	margin-bottom: 2em;
 	padding: 3em;
 }
 
 .heading-image-container img {
 	height: 100%;
-	width: auto;
+	width: 50%;
 }
 
 .project-heading-image {
