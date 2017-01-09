@@ -182,6 +182,11 @@ input:focus, textarea:focus {
 	margin-top: 3.5em;
 }
 
+.instructions img {
+	height: 6em;
+	width: 10em;
+}
+
 .header {
 	background-image: url("http://i.imgur.com/gPTJJoU.jpg");
 	background-position: center center;
