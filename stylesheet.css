@@ -185,6 +185,8 @@ input:focus, textarea:focus {
 .instructions img {
 	height: 24em;
 	width: auto;
+	float: left;
+	clear: both;
 }
 
 .header {
