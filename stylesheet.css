@@ -178,8 +178,11 @@ input:focus, textarea:focus {
 }
 
 .instructions {
-	text-align: center;
+	text-align: left;
 	margin-top: 3.5em;
+}
+.instructions li {
+	text-align: center;
 }
 
 .instructions img {
@@ -188,6 +191,8 @@ input:focus, textarea:focus {
 	float: left;
 	clear: both;
 	margin-top: 2em;
+	margin-left: 1 em;
+	margin-right: 2em;
 }
 
 .header {
