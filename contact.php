@@ -30,6 +30,6 @@ if(!$mail->send()) {
     echo 'Message could not be sent.';
     echo '<br/>Mailer Error: ' . $mail->ErrorInfo;
 } else {
-    header('Location: index.html');
+    header('Location: success.html');
 }
 ?>
