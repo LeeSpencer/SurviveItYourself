@@ -6,7 +6,7 @@
 }
 
 body {
-	background-image: url("http://i.imgur.com/4J0kAoz.jpg");
+	background-image: url("siybackground.jpg");
 	background-size: 60em 78.125em;
 	background-position: 0 19.9em;
 	background-repeat: repeat;
@@ -188,7 +188,7 @@ input:focus, textarea:focus {
 }
 
 .header {
-	background-image: url("http://i.imgur.com/gPTJJoU.jpg");
+	background-image: url("siyheader.jpg");
 	background-position: center center;
 	background-size: 100% 100%;
 	margin-bottom: 4.5em;
@@ -229,7 +229,7 @@ input:focus, textarea:focus {
 }
 
 .content-container {
-	background: url("http://i.imgur.com/Fk1MjQS.jpg") repeat;
+	background: url("siypaper.jpg") repeat;
 	border-radius: 2.5%;
 	padding: 1.5em;
 	margin: 2em 3em 4em 3em;
