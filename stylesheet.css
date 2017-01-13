@@ -184,7 +184,7 @@ input:focus, textarea:focus {
 
 .instructions img {
 	height: 14em;
-	width: auto;
+	width: 12em;
 	float: left;
 	clear: both;
 	margin-top: 2em;
