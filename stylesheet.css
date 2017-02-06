@@ -179,7 +179,7 @@ input:focus, textarea:focus {
 
 .instructions {
 	text-align: left;
-	margin-top: 4em;
+	margin-top: 3.5em;
 }
 .instructions li {
 	text-align: center;
@@ -190,7 +190,7 @@ input:focus, textarea:focus {
 	width: 12em;
 	float: left;
 	clear: both;
-	margin-top: 2em;
+	margin-top: 2.75em;
 	margin-left: 2em;
 	margin-right: 3em;
 }
