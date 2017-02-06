@@ -182,8 +182,7 @@ input:focus, textarea:focus {
 	height: 18em;
 	width: 36em;
 	float: none;
-	text-align: center;
-	/*margin-left: 24em*/
+	margin-left: 24em;
 }
 
 .instructions {
