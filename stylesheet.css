@@ -190,9 +190,12 @@ input:focus, textarea:focus {
 	width: 12em;
 	float: left;
 	clear: both;
-	/*margin-top: 3em;*/
 	margin-left: 2em;
 	margin-right: 3em;
+}
+
+.step img{
+	vertical-align: middle;
 }
 
 .header {
