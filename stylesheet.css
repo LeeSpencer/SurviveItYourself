@@ -178,6 +178,14 @@ input:focus, textarea:focus {
 	border-radius: 40%;
 }
 
+.project-footer-image{
+	height: 18em;
+	width: 36em;
+	float: none;
+	text-align: center;
+	/*margin-left: 24em*/
+}
+
 .instructions {
 	text-align: left;
 	margin-top: 3.5em;
