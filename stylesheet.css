@@ -175,6 +175,7 @@ input:focus, textarea:focus {
 	display: inline-block;
 	height: auto;
 	width: 100%;
+	border-radius: 40%;
 }
 
 .instructions {
