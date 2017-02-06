@@ -178,7 +178,7 @@ input:focus, textarea:focus {
 	border-radius: 40%;
 }
 
-.project-footer-image{
+#project-footer-image{
 	height: 18em;
 	width: 36em;
 	float: none;
