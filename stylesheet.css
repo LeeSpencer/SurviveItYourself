@@ -194,8 +194,13 @@ input:focus, textarea:focus {
 	margin-right: 3em;
 }
 
+.step {
+	padding: 1em;
+	margin-bottom: 1em;
+}
+
 .step img{
-	vertical-align: middle;
+	margin-top: 2em;
 }
 
 .header {
