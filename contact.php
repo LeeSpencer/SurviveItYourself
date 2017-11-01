@@ -19,7 +19,7 @@ $email = $_POST['email'];
 $message = $_POST['message'];
 
 $mail->setFrom($email, $name);
-$mail->addAddress('lees18@charlottenet.org', 'Spencer Lee');     // Add a recipient
+$mail->addAddress('johndoe@email.com', 'John Doe');                // Add a recipient
 
 $mail->Subject = 'SIY Customer Contact, ' . $name;
 $mail->Body    = $message . '<br/><br/>Name: ' . $name . '<br/>Email: ' . $email;
