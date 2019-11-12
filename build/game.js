@@ -1,6 +1,7 @@
 (function () {
     "use strict";
 
+    
     ///////////////////////////////////////
     // Helper functions/objects
     ///////////////////////////////////////
@@ -101,15 +102,13 @@
 
 
     // Sprite Object
-    function Sprite(imgPath, frames, frameRate, row, col) {
-        //let spriteImage = new Image();
-        let image = new Image();
+    function Sprite(imgPath, frameSize, frames, frameRate, row, col) {
+        let spriteImage = document.createElement("img");
+        let image = document.createElement("img");
 
-        image.addEventListener("error", function() {console.log("Image failed!");}, false);
-        image.addEventListener("load",  function () {
-            console.log("Onload function firing");
-            this.loaded = true;
-            /*let spriteCanvas = document.createElement("canvas");
+        spriteImage.addEventListener("error", function() {console.log("Image failed!");}, false);
+        spriteImage.addEventListener("load",  function () {
+            let spriteCanvas = document.createElement("canvas");
             let spriteContext = spriteCanvas.getContext('2d');
             
             
@@ -119,17 +118,13 @@
             spriteContext.drawImage(spriteImage,
                                     0, 0, spriteImage.width, spriteImage.height,
                                     0, 0, spriteCanvas.width, spriteCanvas.height);
-            
-            let sourceData = spriteContext.getImageData(0, 0, spriteImage.width, spriteImage.height);
-            
-            spriteContext.putImageData(sourceData, 0, 0);
 
-            image.src = spriteCanvas.toDataURL('image/png');*/
+            image.src = spriteCanvas.toDataURL('image/png');
         }, false);
 
-        image.src = imgPath;
+        spriteImage.src = imgPath;
 
-        this.loaded = false;
+        this.frameSize = frameSize;
         this.row = row;
         this.col = col;
         this.frames = frames;
@@ -275,8 +270,8 @@
 
     // Renderer
     renderer = (function () {
-        let _playerSprite = new Sprite("sprites/animals.png", 1, 1, 3, 4);
-        let _enemySprite = new Sprite("sprites/animals.png", 3, 3, 4, 6);
+        let _playerSprite = new Sprite("build/sprites/animals.png", [26, 36], 1, 1, 3, 4);
+        let _enemySprite = new Sprite("build/sprites/animals.png", [26, 36], 3, 3, 4, 6);
         let _sprites = [].concat(_playerSprite, _enemySprite);
 
         let _canvas = document.getElementById("gameWindow");
@@ -326,15 +321,16 @@
         }
 
         // Draw a sprite to the context
-        function _drawSprite(sprite, entity) {
-            let frameHeight = sprite.image.height/sprite.frames;
-            let frameWidth = sprite.image.width/sprite.frames;
+        function _drawSprite(sprite, entity, width, height) {
+            let frameHeight = sprite.frameSize[1];
+            let frameWidth = sprite.frameSize[0];
+            //_context.drawImage(sprite.image, 0, 0, sprite.image.width, sprite.image.height, 0, 0, sprite.image.width, sprite.image.height);
             _context.drawImage(sprite.image,
                                (sprite.col*frameWidth) + frameWidth*sprite.currentFrame,
                                (sprite.row*frameHeight),
                                frameWidth, frameHeight,
                                entity.x, entity.y,
-                               entity.width, entity.height);
+                               width, height);
         }
 
         // Render enemy at its coords
@@ -343,8 +339,8 @@
             if (enemy.y < enemy.invisPointY) {
                 //context.fillStyle = "red";
                 //context.fillRect(enemy.x, enemy.y, enemy.width, enemy.height);
-                if (_enemySprite.loaded)
-                    _drawSprite(_enemySprite, enemy);
+                
+                _drawSprite(_enemySprite, enemy, enemy.width*2, enemy.height*6);
             }
             // Under water
             else {
@@ -364,8 +360,8 @@
         function _drawPlayer(context, player) {
             //context.fillStyle = "green";
             //context.fillRect(player.x, player.y, player.width, player.height);
-            if (_playerSprite.loaded) 
-                _drawSprite(_playerSprite, player);
+           
+            _drawSprite(_playerSprite, player, player.width, player.height);
         }
 
         // Render game elements and entities
@@ -379,8 +375,10 @@
             _context.fillRect(0, 0, _INITIAL_WIDTH, _INITIAL_HEIGHT);
 
             // Update Sprites
-            for(i = _sprites.length-1; i >= 0; i--) {
-                _sprites[i].update(dt);
+            if (game.accelerating()) {
+                for(i = _sprites.length-1; i >= 0; i--) {
+                    _sprites[i].update(dt);
+                }
             }
 
             // Draw every game entity
@@ -777,5 +775,7 @@
     ///////////////////////////////////////
 
     game.start();
+
+    
     
 })();
