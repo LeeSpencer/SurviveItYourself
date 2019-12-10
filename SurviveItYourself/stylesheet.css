@@ -1,0 +1,308 @@
+/* Reset the marging/padding so as to not use the user agent stylesheet. Then set the box model to use border-box */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-image: url("siybackground.jpg");
+	background-size: 60em 78.125em;
+	background-position: 0 19.9em;
+	background-repeat: repeat;
+}
+
+a > li {
+	color: inherit;
+	text-decoration: none;
+}
+
+h1 {
+	font-family: 'Ravi Prakash', cursive, Helvetica, Arial, serif;
+	font-size: 3.2em;
+}
+
+h2 {
+	font-family: 'Ravi Prakash', cursive, Helvetica, Arial, serif;
+	font-size: 2.5em;
+}
+
+h3 {
+	text-align: left;
+	font-family: 'Ravi Prakash', cursive, Helvetica, Arial, serif;
+	position: relative;
+	bottom: 0;
+	font-size: 2em;
+	clear: both;
+	height: 1.2em;
+	width: 100%;
+}
+
+p {
+	font-size: 1.6em;
+	font-family: 'Ravi Prakash', cursive, Helvetica, Arial, serif;
+	letter-spacing: 0.0025em;
+	color: #301d04;
+}
+
+ol {
+	font-family: 'Ravi Prakash', cursive, Helvetica, Arial, serif;
+}
+
+ol li {
+	color: initial;
+	font-size: 3em;
+}
+
+ol p {
+	font-size: 2em;
+	margin-bottom: 2.8em;
+}
+
+iframe {
+	border-radius: 2.5%;
+}
+
+form {
+	width: 20em;
+	margin: 2.3em auto 0 auto;
+	padding: 1em;
+	border: .1em dashed black;
+	border-radius: 1em;
+}
+
+form div + div {
+	margin-top: .75em;
+}
+
+label {
+	width: 5.625em;
+	text-align: left;
+}
+
+input, textarea {
+	font-family: sans-serif;
+	font-size: 0.75em;
+	width: 100%;
+}
+
+textarea {
+	max-width: 100%;
+	min-width: 100%;
+	min-height: 15em;
+}
+
+input:focus, textarea:focus {
+	border: .0625em solid cadetblue;
+}
+
+#homepage-zombie {
+	float: left;
+	margin-right: 2em;
+	height: 15em;
+	width: auto;
+}
+
+#homepage-zombie2 {
+	float: right;
+	margin-left: 2em;
+	height: 15em;
+	width: auto;
+}
+
+#home-content {
+	margin-top: 3.5em;
+}
+
+#recent-projects {
+	margin: 5em auto;
+	text-align: center;
+	border: .2em dashed black;
+	width: 70%
+}
+
+#zombie-hand {
+	float: right;
+	height: 71%;
+	width: 30%;
+}
+
+#nav-right-end {
+	border-right: none;
+}
+
+#nav-left-end {
+	border-left: none;
+}
+
+#project-container {
+	text-align: center;
+	width: 100%;
+	margin: 0 auto;
+}
+
+#intro {
+	float: left;
+	clear: both;
+	text-align: left;
+	width: 90%;
+	margin: 1em 3em 3em 3em;
+}
+
+#supplies {
+	width: 16%;
+	text-align: left;
+	margin: 0 auto;
+	margin-top: .5em;
+	font-family: 'Ravi Prakash', cursive, Helvetica, Arial, serif;
+	font-size: 1.5em;
+}
+
+.heading-image-container {
+	text-align: center;
+	width: 100%;
+	height: 30em;
+	margin-bottom: 2em;
+	padding: 3em;
+}
+
+.heading-image-container img {
+	height: 100%;
+	width: 70%;
+}
+
+.project-heading-image {
+	display: inline-block;
+	height: auto;
+	width: 100%;
+	border-radius: 40%;
+}
+
+#project-footer-image{
+	height: 18em;
+	width: 36em;
+	float: none;
+	margin-left: 24em;
+}
+
+.instructions {
+	text-align: left;
+	margin-top: 3.5em;
+}
+.instructions li {
+	text-align: center;
+}
+
+.instructions img {
+	height: 14em;
+	width: 12em;
+	float: left;
+	clear: both;
+	margin-left: 2em;
+	margin-right: 3em;
+}
+
+.step {
+	padding: 1em;
+	margin-bottom: 1em;
+}
+
+.step img{
+	margin-top: 4em;
+}
+
+.header {
+	background-image: url("siyheader.jpg");
+	background-position: center center;
+	background-size: 100% 100%;
+	margin-bottom: 4.5em;
+	height: 19.25em;
+	max-height: 19.25em;
+}
+
+.navigation-menu {
+	display: inline-block;
+	z-index: 1000;
+	clear: both;
+	margin: 19.5em auto 0 auto;
+	float: left;
+    	position: relative;
+    	left: 50%;
+}
+
+
+.navigation-menu li {
+	border-right: 0.125em outset white;
+	border-left: 0.125em outset white;
+	color: white;
+	text-transform: uppercase;
+	text-align: center;
+	list-style: none;
+	font-size: 1.4em;
+	padding: 0.3em;
+	float: left;
+    	position: relative;
+    	left: -50%;
+	font-family: sans-serif;
+	}
+
+.navigation-menu li:hover {
+	color: maroon;
+	font-size: 1.6em;
+	border: none;
+}
+
+.content-container {
+	background: url("siypaper.jpg") repeat;
+	border-radius: 2.5%;
+	padding: 1.5em;
+	margin: 2em 3em 4em 3em;
+	min-width: 13em;
+	min-height: 32em;
+	overflow-x: auto;
+	background-attachment: local;
+}
+
+.recently-added-img {
+	display: inline-block;
+	border-radius: 100%;
+	height: 7.5em;
+	width: 8em;
+	margin: 2em auto 0 auto;
+}
+
+.recently-added-img:hover {
+	border: 0.12em inset blue;
+	opacity: 0.9;
+}
+
+.creator-icon {
+	clear: both;
+	float: left;
+	border-radius: 100%;
+	height: 11em;
+	width: 11em;
+	margin: 0 5em;
+	position: relative;
+}
+
+.about-us-text {
+	margin: 4em auto;
+	width: 54%;
+	padding: 1em;
+	border-radius: 5%;
+	text-align: left;
+}
+
+.project-button {
+	border-radius: 100%;
+	display: inline-block;
+	margin: 5em 1em;
+	height: 11em;
+	width: 11em;
+}
+
+.project-button:hover {
+	opacity: 0.9;
+	border: .1em solid darkturquoise;
+}

@@ -6,10 +6,7 @@
 }
 
 body {
-	background-image: url("siybackground.jpg");
-	background-size: 60em 78.125em;
-	background-position: 0 19.9em;
-	background-repeat: repeat;
+	background-image: url("404bg.png");
 }
 
 a > li {
@@ -20,6 +17,7 @@ a > li {
 h1 {
 	font-family: 'Ravi Prakash', cursive, Helvetica, Arial, serif;
 	font-size: 3.2em;
+    background-color: white;
 }
 
 h2 {
