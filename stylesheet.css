@@ -6,7 +6,7 @@
 }
 
 body {
-	background-image: url("404bg.png");
+	background-image: url("/404bg.png");
 }
 
 a > li {
